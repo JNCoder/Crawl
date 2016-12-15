@@ -23,11 +23,9 @@ class BumpDog:
 			if(element != None):
 				return element
 			time.sleep(3)
-
+	
 	def postLogin(self):
 		url = self._plist['Login']['Url']
-		userName = 'nwyfss@gmail.com'
-		password = 'NWYFSSnwyfss123'
 		
 		self._driver.get(url)
 		
